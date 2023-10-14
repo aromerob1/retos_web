@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+
+/* Estilos CSS */
+.container-fluid.d-flex.flex-row {
+  justify-content: space-between;
+}
+
+.container-fluid.d-flex.flex-row-reverse {
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+
+.navbar-brand-container, .menu-container {
+  display: flex;
+  align-items: center;
+}
